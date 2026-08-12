@@ -72,7 +72,7 @@ function createHearts() {
     setTimeout(() => {
       const heart = document.createElement('div');
       heart.classList.add('heart');
-      heart.innerHTML = '❤️';
+      heart.innerHTML = '🍺';
       
       // Random position and animation properties
       heart.style.left = Math.random() * 100 + 'vw';
@@ -92,7 +92,7 @@ function createHearts() {
   setInterval(() => {
     const heart = document.createElement('div');
     heart.classList.add('heart');
-    heart.innerHTML = '❤️';
+    heart.innerHTML = '🍺';
     heart.style.left = Math.random() * 100 + 'vw';
     heart.style.animationDuration = Math.random() * 2 + 3 + 's';
     heart.style.fontSize = Math.random() * 20 + 20 + 'px';
